@@ -4,4 +4,4 @@ function Invoke-Tech
 	Start-Sleep 5;
 }
 
-Invoke-Tech;
+#Invoke-Tech;
