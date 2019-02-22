@@ -16,7 +16,7 @@ function Invoke-Tech
 	Start-Sleep 1;
 	
 	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Adding User John      =-=-=-=-=-=-=-=-=-=-=-= ";
-	net user /add John SuperhardPassword3
+	net user /add John Superharsword3
 	Start-Sleep 1;
 	
 	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Adding to Group       =-=-=-=-=-=-=-=-=-=-=-= ";
